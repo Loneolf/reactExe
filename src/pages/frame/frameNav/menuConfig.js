@@ -16,7 +16,7 @@ const MenuConfigCol = [
   {
     name: '搜索test',
     menu: [],
-    router: '/wolf/home/testPage4',
+    router: '/wolf/home/Search',
     // icon: 'down',
     icon_side: 'pie-chart'
   },
