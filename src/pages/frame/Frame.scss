@@ -1,0 +1,14 @@
+@import 'assets/css/variable.scss';
+
+#datatist-wolf-app{
+  .ant-layout-header {
+    height: $app_header;
+    line-height: $app_header;
+  }
+  .frame-header {
+    color:#fff;
+    background-color: $white;
+    border-bottom: 1px solid $border_color;
+    padding: 0;
+  }
+}

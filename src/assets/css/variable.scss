@@ -1,0 +1,37 @@
+/*** color config ***/
+
+/* common*/
+$primary_color: #ff6800;
+$white: #fff;
+$border_color: #e4e4e4;
+$table_head_bg: #ECF7FE;
+
+/*nav*/
+$app_header: 60px;
+
+/*menu垂直菜单变量*/
+$menu_bg: #69737F;
+$menu_color: #a7b1c2;
+$menu_w: 180px;
+$menu_mini_w: 80px;
+%menu_hover {
+    background-color: #212e3a;
+    color: #fff;
+}
+%menu_selected {
+    background: $white;
+    color: $primary_color;
+}
+%menu_item_height {
+    height: 46px;
+    line-height: 46px;
+}
+
+// 水平菜单变量
+$menu_height:60px;
+$menu_item_lineHeight_horizontal:60px;
+
+/**content*/
+$content_bg: #f4f4f4;
+
+

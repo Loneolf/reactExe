@@ -1,0 +1,36 @@
+@import 'assets/css/variable.scss';
+
+.headeNavInner{
+  height:100%;
+  .navName{
+    margin-right: 20px;
+  }
+  .ant-menu-horizontal{
+    color:#fff;
+    border:none;
+    background:transparent!important;
+    height:100%;
+    .ant-menu-item{
+      height:100%;
+      line-height: $menu_item_lineHeight_horizontal;
+      // border:none;
+      a{
+        color:#fff;
+      }
+    }
+    .ant-menu-item-selected{
+      background: #333;
+      a{
+        color:$primary_color;
+      }
+      // border:none;
+    }
+    // .ant-menu-item-active{
+    //   border:none;
+    // }
+    .ant-menu-submenu-horizontal{
+      height: 100%;
+      line-height: $menu_item_lineHeight_horizontal;
+    }
+  }
+}

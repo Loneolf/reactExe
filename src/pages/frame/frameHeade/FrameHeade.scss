@@ -1,0 +1,60 @@
+@import 'assets/css/variable.scss';
+.headerBox {
+  width: 100%;
+  display:flex;
+  align-items: center;
+  background:#3B3A40;
+  .logoBox {
+    display:flex;
+    align-items: center;
+    width:180px;
+    .logo {
+      width: 40px;
+      margin-left:10px;
+      & + .trigger {
+        font-size: 18px;
+        vertical-align: middle;
+        padding: 0 0 0 24px;
+        cursor: pointer;
+        transition: color 0.3s;
+        &:hover {
+          color: #1890ff;
+        }
+      }
+    }
+    .logoFont{
+      font-weight: bolder;
+      font-size: 18px;
+      margin-left:10px;
+      height: 40px;
+      width:120px;
+      line-height: 40px;
+    }
+  }
+  .W190{
+    width:190px
+  }
+  .headNav{
+    flex:1;
+    align-items: center;
+    padding-left:15px;
+    height:$menu_height;
+  }
+  .navChange{
+    margin:0 10px;
+  }
+  .userAndSetting {
+    width:200px;
+    padding-right: 20px;
+    .ant-divider {
+      background: #ccc;
+      margin: 0 12px;
+    }
+    .exit {
+      cursor: pointer;
+      i {
+        margin-right: 8px;
+      }
+    }
+  }
+}

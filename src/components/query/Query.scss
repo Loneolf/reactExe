@@ -1,0 +1,37 @@
+.query{
+  margin: 0 20px 20px;
+  padding: 16px 20px 0;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+  &.fold {
+    display: none;
+  }
+  .ant-row{
+    .left {
+      .ant-row {
+        .ant-col-8 {
+          display: flex;
+          align-items: center;
+          padding-bottom: 16px;
+          & > span:first-child {
+            min-width: 100px;
+          }
+          & > .ant-select {
+            width: calc(100% - 100px);
+          }
+          &.data-range > span:last-child {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .right {
+      display: flex;
+      justify-content: flex-end;
+      button:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}

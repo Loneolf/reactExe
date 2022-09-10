@@ -1,0 +1,78 @@
+.loginWrap{
+  padding:15px 100px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  min-width: 1200px;
+  .login{
+    width: 1200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    .heade{
+      margin-bottom: 40px;
+      img{
+        width:220px;
+        height:64px;
+      }
+    }
+    .main{
+      display:flex;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+      // justify-content: center;
+      .mainLeft{
+        min-width:480px;
+        h3{
+          font-size: 24px;
+          color:#373F47;
+          font-family: 'PingFangSC-Medium';
+        }
+        .ant-form{
+          .login-form {
+            max-width: 340px;
+          }
+          .login-form-forgot {
+            float: right;
+          }
+          .login-form-button {
+            width: 100%;
+          }
+          .ant-form-item-label{
+            label{
+              font-size: 16px;
+              color:#333;
+              font-family: 'PingFangSC-Regular';
+            }
+          }
+          .ant-input{
+            height:48px;
+            width: 340px;
+          }
+          .login-form-button{
+            height: 48px;
+            font-size: 18px;
+            width:340px
+          }
+        }
+        .reminder{
+          font-size: 16px;
+          color:#666;
+          margin-top: 10px;
+        }
+      }
+      .mainRight{
+        margin-left: 100px;
+        img{
+          width:465px;
+          height:348px;
+        }
+      }
+    }
+    .copyRight{
+      text-align: center;
+      margin-top: 30px;
+      color:#aaa;
+    }
+  }
+}
