@@ -5,7 +5,7 @@ class C extends Component {
   render() {
     return (
       <div>
-        搜索
+        搜索233
       </div>
     );
   }
